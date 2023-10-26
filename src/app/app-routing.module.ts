@@ -38,7 +38,11 @@ const routes: Routes = [
   {
     path: '**',
     loadChildren: () => import('./error-page/error-page.module').then(m => m.ErrorPagePageModule)
+  },  {
+    path: 'modalpag',
+    loadChildren: () => import('./modalpag/modalpag.module').then( m => m.ModalpagPageModule)
   },
+
   
 
 
