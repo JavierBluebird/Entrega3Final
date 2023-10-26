@@ -5,16 +5,20 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-card>
-    <img alt="Imagen Viaje" src="/assets/geolocalizacion.png" />
+  <div class="container">
+  <capacitor-google-map #map></capacitor-google-map>
+</div>
+<!--   <ion-card>
+    <capacitor-google-map #map></capacitor-google-map>
     <ion-card-header>
       <ion-card-title>Precio: $4.950 </ion-card-title>
       <ion-card-subtitle>6 Minutos </ion-card-subtitle>
     </ion-card-header>
   
     <ion-card-content>
+      
       Recuerda confirmar los datos con el conductor/pasajero para no tener problemas
     </ion-card-content>
   </ion-card>
-  <ion-button id="ConfBut">Confirmar Viaje</ion-button>
+  <ion-button id="ConfBut">Confirmar Viaje</ion-button> -->
 </ion-content>

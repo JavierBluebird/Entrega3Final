@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { PaginaViajePageRoutingModule } from './pagina-viaje-routing.module';
 
 import { PaginaViajePage } from './pagina-viaje.page';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { PaginaViajePage } from './pagina-viaje.page';
     IonicModule,
     PaginaViajePageRoutingModule
   ],
-  declarations: [PaginaViajePage]
+  declarations: [PaginaViajePage],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class PaginaViajePageModule {}
