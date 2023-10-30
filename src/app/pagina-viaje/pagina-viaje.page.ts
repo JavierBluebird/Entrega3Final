@@ -34,7 +34,7 @@ export class PaginaViajePage implements OnInit {
             lat: -33.43283572901143,
             lng: -70.61490440499237,
           },
-          zoom: 16,
+          zoom: 16, // zoom total
     },
     })
   }
